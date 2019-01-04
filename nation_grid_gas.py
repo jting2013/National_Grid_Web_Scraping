@@ -15,7 +15,7 @@ class National_Gas:
 
     def run(self):
         print(Username)
-        path = r"../browser_exe/chromedriver.exe"
+        path = r"browser_exe/chromedriver.exe"
         website = 'https://online.nationalgridus.com/login/LoginActivate?applicurl=aHR0cHM6Ly9vbmxpbmUubmF0aW9uYWxncmlkdXMuY29tL2VzZXJ2aWNlX2VudQ==&auth_method=0'
         browser = webdriver.Chrome(path)
         browser.set_page_load_timeout(10)

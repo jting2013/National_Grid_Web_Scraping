@@ -17,7 +17,7 @@ class National_Electric:
         pass
 
     def run(self):
-        path = r"../browser_exe/chromedriver.exe"
+        path = r"browser_exe/chromedriver.exe"
         website = 'https://www1.nationalgridus.com/SignIn'
         browser = webdriver.Chrome(path)
         browser.set_page_load_timeout(10)
