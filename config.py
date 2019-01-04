@@ -1,0 +1,6 @@
+Username_Electric = 'login@yahoo.com'
+Username = 'username'
+Password = 'password'
+Email_From = 'fromemail@hotmail.com'
+Email_PW_From = 'frompassword'
+Email_To = 'toemail@yahoo.com'
